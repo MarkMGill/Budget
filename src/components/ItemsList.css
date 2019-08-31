@@ -1,0 +1,17 @@
+.table td {
+    padding: 10px 30px;
+}
+
+table tr .icon {
+    display: inline;
+    opacity: 0;
+}
+
+table tr:hover .icon {
+    display: inline;
+    opacity: 1;
+}
+
+table tr:hover .icon i:active {
+    transform: translate(0%, 10%);
+}
